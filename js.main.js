@@ -44,7 +44,7 @@ swal({
  closeOnConfirm: false,   
 animation: "slide-from-top",  
 
- inputPlaceholder: "Kẹo,rửa bát hộ,lau nhà hộ," },
+ inputPlaceholder: "kẹo nè,bánh nè,nước ngọt..." },
  function(inputValue){   
 if (inputValue === false) return false;   
    if (inputValue === "") {   
