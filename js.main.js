@@ -38,7 +38,7 @@ setTimeout(function(){
 
 swal({  
  title: "Nhập tên món quà nào đó ", 
-  text: "em muốn nhận quà gì nào ? ",  
+  text: "bình thường anh sẽ gửi quà nhưng anh còn chưa gặp mày, nên đây là quà nhé  ? ",  
  type: "input",  
  showCancelButton: true,  
  closeOnConfirm: false,   
