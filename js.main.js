@@ -30,7 +30,7 @@ animation: "slide-from-top",
  function(inputValue){   
 if (inputValue === false) return false;   
    if (inputValue !== "thanh hoá") {   
-  swal.showInputError("Nhập sai rồi kìa :v ");   
+  swal.showInputError("Nhập sai rồi kìa má ơi :v ");   
   return false   }   
  
 setTimeout(function(){
@@ -61,7 +61,7 @@ if (inputValue === false) return false;
 
  }
 else {   
-  swal("KHÔNG NHẬN ", "Bạn vừa từ chối món quà từ THÁI HOÀNG ,    Ấn F5 nếu muốn nhận lại quà :D ", "error"); 
+  swal("KHÔNG NHẬN ", "Bạn vừa từ chối món quà từ THÁI HOÀNG ,   tải lại trang nếu muốn nhận lại quà :D ", "error"); 
 
   } });
 
