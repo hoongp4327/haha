@@ -44,7 +44,7 @@ swal({
  closeOnConfirm: false,   
 animation: "slide-from-top",  
 
- inputPlaceholder: " đòi hỏi cc" },
+ inputPlaceholder: " ĐM để tiếp tục " },
  function(inputValue){   
 if (inputValue === false) return false;   
    if (inputValue === "") {   
