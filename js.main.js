@@ -11,7 +11,7 @@ imageUrl: "https://graph.facebook.com/100005293188983/picture?type=large",
   showCancelButton: true,
   confirmButtonColor: "#d3d030", 
   confirmButtonText: "Nhận quà ngay",
-   cancelButtonText: "Không cần, cám ơn .", 
+   cancelButtonText: "Đéo cần, cám ơn .", 
   closeOnConfirm: false,  
  closeOnCancel: false }, 
 function(isConfirm){  
@@ -19,7 +19,7 @@ function(isConfirm){
  
 
 swal({  
- title: "Bạn có phải là Trang ? ", 
+ title: "Bạn có phải là Thuỷ ? ", 
   text: "Nhập mã xác nhận nè ",  
  type: "input",  
  showCancelButton: true,  
@@ -29,7 +29,7 @@ animation: "slide-from-top",
  inputPlaceholder: "Mã xác nhận là gì ?" },
  function(inputValue){   
 if (inputValue === false) return false;   
-   if (inputValue !== "iloveyou") {   
+   if (inputValue !== "thanh hoá") {   
   swal.showInputError("Nhập sai rồi kìa :v ");   
   return false   }   
  
@@ -38,19 +38,19 @@ setTimeout(function(){
 
 swal({  
  title: "Nhập tên món quà nào đó ", 
-  text: "Trang muốn nhận quà gì nào ? ",  
+  text: "em muốn nhận quà gì nào ? ",  
  type: "input",  
  showCancelButton: true,  
  closeOnConfirm: false,   
 animation: "slide-from-top",  
 
- inputPlaceholder: "kẹo nè,bánh nè,nước ngọt..." },
+ inputPlaceholder: "thật ra cái này là quà rồi, đòi hỏi cc" },
  function(inputValue){   
 if (inputValue === false) return false;   
    if (inputValue === "") {   
   swal.showInputError("Không thể để trống được ");   
   return false   }  
- swal("OK ! ", "Món quà : " + inputValue + " sẽ tặng cho Trang trong 10s nữa hãy đợi nhé, Chúc chị một ngày Sinh Nhật thật Vui Vẻ nhé ^^   ", "success"); });
+ swal("OK ! ", "Món quà : " + inputValue + " Chúc em một ngày Sinh Nhật thật Vui Vẻ nhé ^^   ", "success"); });
 
 
 },3000);
