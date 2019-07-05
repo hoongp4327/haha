@@ -38,13 +38,13 @@ setTimeout(function(){
 
 swal({  
  title: "Nhập tên món quà nào đó ", 
-  text: "bình thường anh sẽ gửi quà nhưng anh còn chưa gặp mày, nên đây là quà nhé  ? ",  
+  text: "Cái này là quà rồi nhé đcu hehe ",  
  type: "input",  
  showCancelButton: true,  
  closeOnConfirm: false,   
 animation: "slide-from-top",  
 
- inputPlaceholder: "thật ra cái này là quà rồi, đòi hỏi cc" },
+ inputPlaceholder: " đòi hỏi cc" },
  function(inputValue){   
 if (inputValue === false) return false;   
    if (inputValue === "") {   
