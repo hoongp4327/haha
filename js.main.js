@@ -37,8 +37,8 @@ setTimeout(function(){
 
 
 swal({  
- title: "Nhập tên món quà nào đó ", 
-  text: "Cái này là quà rồi nhé đcu hehe ",  
+ title: "Chúc em một tuổi mới", 
+  text: "Bớt xinh, đỗ đại học mình mong muốn, bắn pubg provip, nói chuyện luôn bựa, anh mày định chúc bựa nhưng sợ bị chửi hic ",  
  type: "input",  
  showCancelButton: true,  
  closeOnConfirm: false,   
