@@ -38,7 +38,7 @@ setTimeout(function(){
 
 swal({  
  title: "Chúc em một tuổi mới", 
-  text: "Bớt xinh, đỗ đại học mình mong muốn, bắn pubg provip, nói chuyện luôn bựa, anh mày định chúc bựa nhưng sợ bị chửi hic ",  
+  text: "Bớt xinh, đỗ đại học mình mong muốn, bắn pubg provip, nói chuyện luôn bựa, ngày này là ngày một thiên thần ra đời :D  anh mày định chúc bựa nhưng sợ bị chửi hic ",  
  type: "input",  
  showCancelButton: true,  
  closeOnConfirm: false,   
@@ -50,7 +50,7 @@ if (inputValue === false) return false;
    if (inputValue === "") {   
   swal.showInputError("Không thể để trống được ");   
   return false   }  
- swal("OK ! ", "Món quà : " + inputValue + " Chúc em một ngày Sinh Nhật thật Vui Vẻ nhé ^^   ", "success"); });
+ swal("ok ! ", + inputValue + " Chúc em một ngày Sinh Nhật thật Vui Vẻ nhé ^^   ", "success"); });
 
 
 },3000);
