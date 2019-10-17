@@ -7,7 +7,7 @@ swal({
 
  title: "Bạn nhận được một món quà !",   
 text: "Thái Hoàng vừa gửi bạn một món quà đặc biệt nhân ngày sinh nhật của bạn ",
-imageUrl: "https://graph.facebook.com/100005293188983/picture?type=large",
+imageUrl: "https://graph.facebook.com/108165012698422/picture?type=large",
   showCancelButton: true,
   confirmButtonColor: "#d3d030", 
   confirmButtonText: "Nhận quà ngay",
