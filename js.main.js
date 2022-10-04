@@ -29,7 +29,7 @@ animation: "slide-from-top",
  inputPlaceholder: "Mã xác nhận là gì ?" },
  function(inputValue){   
 if (inputValue === false) return false;   
-   if (inputValue !== "em ơi đừng khóc bóng tối trước mắt sẽ bắt em đi") {   
+   if (inputValue !== "vaivtc") {   
   swal.showInputError("Nhập sai rồi bà già :) ");   
   return false   }   
  
